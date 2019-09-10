@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smena</title>
+</head>
+<body>
+	<h3 id="naslov"></h3>
+	<div id="zene"></div>
+	<div id="muski"></div>
+
+	<table></table>
+	<button id="azuriraj">Azuriraj izabranog lekara</button>
+
+	<div id="forma" hidden>
+		<div>
+			Ime: <input name="ime">
+		</div>
+		<div>
+			Prezime: <input name="prezime">
+		</div>
+		<div>
+			Pol: 
+			<input type="radio" name="pol" value="Z"> Zensko
+			<input type="radio" name="pol" value="M"> Musko
+		</div>
+		<div>
+			Radno vreme: 
+			<input type="radio" name="vreme" value="prepodne"> prepodne
+			<input type="radio" name="vreme" value="popodne"> popodne
+		</div>
+		<button id="sacuvaj">Sacuvaj promene</button>
+	</div>
+
+
+
+<script src="./funkcije.js" type="module"></script>
+</body>
+</html>
